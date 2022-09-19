@@ -1,0 +1,42 @@
+:root {
+  --gray-800: #444761;
+  --gray-700: #737697;
+  --gray-600: #9397af;
+  --gray-500: #abb0d6;
+  --gray-400: #ced0e4;
+
+  --black-500: #171c27;
+  --black-400: #0d0e13;
+
+  --pink-900: #c53680;
+  --pink-800: #a14572;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+#root {
+  background-color: var(--black-500);
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  max-width: 1480px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+button:disabled {
+  opacity: 0.7;
+}

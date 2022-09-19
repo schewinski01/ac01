@@ -1,0 +1,67 @@
+.label_container {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  vertical-align: top;
+  position: relative;
+}
+
+.label_container input {
+  border: 0px;
+  clip: rect(0px, 0px, 0px, 0px);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+}
+
+.label_container span {
+  width: 1rem;
+  transition-property: box-shadow;
+  transition-duration: 200ms;
+  border: 2px solid;
+  border-radius: 0.125rem;
+  border-color: inherit;
+  color: #fff;
+  height: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  user-select: none;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.label_container span[data-checked] {
+  background: var(--pink-900);
+  border-color: var(--pink-900);
+  color: #fff;
+}
+
+.label_container span div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  transform: none;
+}
+
+.svg_table {
+  fill: none;
+  stroke-width: 2;
+  stroke: currentcolor;
+  stroke-dasharray: 16;
+  opacity: 1;
+  stroke-dashoffset: 0;
+
+  opacity: 1;
+  transform: scale(1);
+  font-size: 0.625rem;
+  transition-property: transform;
+  transition-duration: 200ms;
+  width: 1.2em;
+}

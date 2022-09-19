@@ -1,0 +1,27 @@
+.user_card {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.5rem 1rem;
+  color: #9f7aea;
+}
+
+.user_card td > p {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.user_card td > span {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.user_card .table_date > p {
+  color: #fff;
+  font-weight: 300;
+}
+
+.user_card:not(:last-child) {
+  border-bottom: 1px solid var(--gray-700);
+}

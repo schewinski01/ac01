@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 0;
+}
+
+.user_list_container {
+  width: 100%;
+  height: auto;
+
+  background-color: var(--black-400);
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.user_list_container thead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.user_list_container thead p {
+  font-size: 1.875rem;
+}
+
+.user_list_container thead a {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  max-width: 120px;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  color: #fff;
+  background-color: var(--pink-900);
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: filter 0.2s all;
+}
+
+.user_list_container thead a:hover {
+  filter: opacity(0.8);
+}
+
+.table_title_row {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--gray-700);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+}
+
+.table_title_row {
+  border-bottom: 1px solid var(--gray-700);
+}
+
+tfoot {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+tfoot div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+tfoot div > button {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--gray-800);
+  border-radius: 0.5rem;
+  border: none;
+  color: #fff;
+
+  cursor: pointer;
+  transition: filter 0.2s all;
+}
+
+tfoot div > button.active {
+  background-color: var(--pink-900);
+}
+
+tfoot div > button:hover {
+  filter: opacity(0.8);
+}

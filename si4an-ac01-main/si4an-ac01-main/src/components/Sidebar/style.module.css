@@ -1,0 +1,26 @@
+.container {
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.sidebar > p {
+  font-size: small;
+  color: var(--gray-600);
+  font-weight: 700;
+}
+
+.sidebar_item_container {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  margin-top: 2rem;
+}
